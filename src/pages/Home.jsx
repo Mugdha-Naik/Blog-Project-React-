@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { useEffect } from 'react'
 import ConfigurationService from '../appwrite/Configuration'
-import { Container, PostCard } from '../components'
+import { Container, PostCard } from '../components/index'
 
  
 function Home() {
