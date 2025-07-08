@@ -1,6 +1,7 @@
 import React, { useCallback } from 'react'
 import { useForm } from 'react-hook-form'
-import {Button, Select, Input, RTE} from '..'
+import {Button, Select, Input, RTE} from '../index'
+
 import ConfigurationService from '../../appwrite/Configuration'
 import { useNavigate } from 'react-router-dom'
 import { useSelector } from 'react-redux'
