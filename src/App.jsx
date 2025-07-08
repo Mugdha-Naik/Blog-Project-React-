@@ -39,15 +39,15 @@ const App = () => {
   if (loading) return <div>Loading...</div>;
 
   return !loading ? (
-    <div className='min-h-screen bg-gray-400 flex flex-wrap content-between'>
-      <div className='w-full block'>
+    <div className='gap-3 min-h-screen bg-gray-400 flex flex-wrap content-between'>
+      <div className=' gap-3 w-full block'>
         <Header/>
         <main>
           
           <Outlet />
         </main>
 
-        <img src={blog3} alt="blog" className=" justify-center items-center w-full" />
+        <img src={blog3} alt="blog" className="my-8 mx-auto justify-center rounded-xl items-center w-full" />
         <Footer/>
       </div>
     </div>
