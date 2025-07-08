@@ -52,7 +52,7 @@ function Header() {
             <nav className='flex'>
                 <div className='mr-4 '>
                     <Link to='/'>
-                        <Logo width='70px'/>
+                        <Logo width='80px'/>
                     </Link>
                 </div>
 
@@ -62,7 +62,7 @@ function Header() {
                         <li key={item.name}>
                             <Link
                                 to={item.slug}
-                                className="inline-block px-6 py-2 duration-200 hover:bg-blue-100 rounded-full"
+                                className="inline-block px-6 py-2 duration-200 hover:bg-blue-100 rounded-full text-lg font-medium"
                             >
                                 {item.name}
                             </Link>

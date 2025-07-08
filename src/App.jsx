@@ -5,8 +5,10 @@ import './App.css'
 import { useDispatch } from 'react-redux'
 import {login, logout} from './store/AuthSlice'
 import ConfigurationService from './appwrite/Auth'
-import {Footer, Header} from './components'
+import Header from './components/Header/Header'
+import Footer from './components/Footer/Footer'
 import { Outlet } from 'react-router-dom'
+import blog3 from './photos/blog3.jpg'
 
 
 const App = () => {
@@ -41,8 +43,11 @@ const App = () => {
       <div className='w-full block'>
         <Header/>
         <main>
-        TODO:  <Outlet />
+          
+          <Outlet />
         </main>
+
+        <img src={blog3} alt="blog" className=" justify-center items-center w-full" />
         <Footer/>
       </div>
     </div>
